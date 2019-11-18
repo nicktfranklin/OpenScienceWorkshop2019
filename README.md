@@ -48,7 +48,7 @@ We've created an example notebook to use with [Binder](https://mybinder.org).  T
 
 
 ### Google Colab
-___
+
 
 [Google Colab](https://colab.research.google.com/) is simliar, but more powerful.  Colab has many packages pre-installed and comes with access to GPUs, making it ideal for sharing neural networks.  
 
