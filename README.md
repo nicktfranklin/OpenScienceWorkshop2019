@@ -31,14 +31,10 @@ Use your Github for whatever you want.  It is an easy way to share files, with s
 ## Documenting your Github
 ___
 What you are reading now is the 
-`README.MD` file.  This file is written in *Markdown*, a simplified HTML-based langauge that allows you to quickly and easily write a website. With markdown, you can quickly add links, basic formatting, even code and laTex script. Github will automatically render any file named README.MD in the body of the respository. You can see the raw markdown for this README.MD file: [raw markdown](https://raw.githubusercontent.com/nicktfranklin/OpenScienceWorkshop2019/master/README.md).
+`README.MD` file.  This file is written in *Markdown*, a simplified HTML-based langauge that allows you to quickly and easily write a website. With markdown, you can quickly add links, basic formatting, even code. Github will automatically render any file named README.MD in the body of the respository. You can see the raw markdown for this README.MD file: [raw markdown](https://raw.githubusercontent.com/nicktfranklin/OpenScienceWorkshop2019/master/README.md).
 
 
-Here is what mathematical notation looks like rendered:
-
-$$x \sim N(\mu, \sigma)$$
-
-and code:
+Here is what code looks like rendered:
 
 ```
 def my_fun(a, b):
