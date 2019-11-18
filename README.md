@@ -44,8 +44,13 @@ def my_fun(a, b):
     return a + b
 ```
 
+img[src*="#thumbnail"] {
+   width:150px;
+   height:100px;
+}
+
 and here's a fun photo of me and a llama:
-![Image of Yaktocat](/images/IMG_0488.png)
+![Image of Yaktocat](/images/IMG_0488.png#thumbnail)
 
 The point is you can do a lot with Markdown very easily.  Your `README.MD` file can be as expressive as you like, and having a well documented and detailed `README.MD` file can really help make your work intelligable to someone else.
 
