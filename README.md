@@ -44,13 +44,22 @@ def my_fun(a, b):
     return a + b
 ```
 
-img[src*="#thumbnail"] {
+<code>img[src*="#thumbnail"] {
    width:150px;
    height:100px;
-}
+}</code>
 
 and here's a fun photo of me and a llama:
-![Image of Yaktocat](/images/IMG_0488.png#thumbnail)
+
+<img src="images/IMG_0488.png" alt="Kitten"
+	title="Nick and a Llama" width="150" height="150" />
+<!-- Here, I use a standard HTML tag to imbed the image so I could resize it. You can also use the following code to imbed images, but with less control:
+
+
+![image nick_llama](/images/IMG_0488.png)
+
+ -->
+
 
 The point is you can do a lot with Markdown very easily.  Your `README.MD` file can be as expressive as you like, and having a well documented and detailed `README.MD` file can really help make your work intelligable to someone else.
 
