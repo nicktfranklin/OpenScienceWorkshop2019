@@ -44,10 +44,6 @@ def my_fun(a, b):
     return a + b
 ```
 
-<code>img[src*="#thumbnail"] {
-   width:150px;
-   height:100px;
-}</code>
 
 and here's a fun photo of me and a llama:
 
