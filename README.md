@@ -35,6 +35,7 @@ What you are reading now is the
 
 
 Here is what mathematical notation looks like rendered:
+
 $$x \sim N(\mu, \sigma)$$
 
 and code:
