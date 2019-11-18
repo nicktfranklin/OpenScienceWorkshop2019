@@ -13,12 +13,15 @@ In general, there are several key files you will tend to see over and over in Gi
   * README.MD file
   * requirements.txt
   * LICENSE
+  * .gitignore
 
-The README.MD file is a description of your repository (more on that below). 
+The `README.MD` file is a description of your repository (more on that below). 
 
-The requirements.txt file is typically a list of python packages that the repository can use.  These are typically compatable with the pip package mananger ([documentation here](https://pip.readthedocs.io/en/1.1/requirements.html)), but the important point is to make sure that somewhere in the repository, it is clear exactly what is needed to run your code.  The specifics of that are less important.  
+The `requirements.txt` file is typically a list of python packages that the repository can use.  These are typically compatable with the pip package mananger ([documentation here](https://pip.readthedocs.io/en/1.1/requirements.html)), but the important point is to make sure that somewhere in the repository, it is clear exactly what is needed to run your code.  The specifics of that are less important.  
 
-The LICENSE file is common, but generally not necessary for smaller projects.  I've chosen the MIT license, and GitHub makes it easy to choose among several.  There is more information [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository), but generally this is something you don't need to worry too much about unless you are building software.
+The `LICENSE` file is common, but generally not necessary for smaller projects.  I've chosen the MIT license, and GitHub makes it easy to choose among several.  There is more information [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository), but generally this is something you don't need to worry too much about unless you are building software.
+
+The `.gitignore`  file list all of the files that you don't want to include in the reposistory. A lot of programs create temporary and/or hidden files (often starting with a '.') that can clutter a repository.  The `.gitignore` specifies files to ignore for the purposes of version control. 
 
 ### What can you host in GitHub?
 (Almost) anything! GitHub suggests that repositories are less than 1GB and limits all files to a maximum of 100 MB.  It's a great place for non-sensitive data, analyses, simulations, presentations, websites, etc.  
@@ -28,10 +31,26 @@ Use your Github for whatever you want.  It is an easy way to share files, with s
 ## Documenting your Github
 ___
 What you are reading now is the 
-`README.MD` file.  This file is written in *Markdown*, a simplified HTML-based langauge that allows you to quickly and easily write a website. With markdown, you can quickly add links, basic formatting, even laTex code. Github will automatically render any file named README.MD in the body of the respository. You can see the raw markdown for this README.MD file: [raw markdown](https://raw.githubusercontent.com/nicktfranklin/OpenScienceWorkshop2019/master/README.md).
+`README.MD` file.  This file is written in *Markdown*, a simplified HTML-based langauge that allows you to quickly and easily write a website. With markdown, you can quickly add links, basic formatting, even code and laTex script. Github will automatically render any file named README.MD in the body of the respository. You can see the raw markdown for this README.MD file: [raw markdown](https://raw.githubusercontent.com/nicktfranklin/OpenScienceWorkshop2019/master/README.md).
 
 
-Here is a good guide on writting Markdown in README.MD files: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+Here is what mathematical notation looks like rendered:
+$$x \sim N(\mu, \sigma)$$
+
+and code:
+
+```
+def my_fun(a, b):
+    return a + b
+```
+
+and here's a fun photo of me and a llama:
+![Image of Yaktocat](/images/IMG_0488.png)
+
+The point is you can do a lot with Markdown very easily.  Your `README.MD` file can be as expressive as you like, and having a well documented and detailed `README.MD` file can really help make your work intelligable to someone else.
+
+
+Here is a good guide on writting Markdown in README.MD files: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).  Markdown 
 
 ## Hosting code online
 ___
