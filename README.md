@@ -1,5 +1,5 @@
 # OpenScienceWorkshop2019
-Welcome to the Open Science Workshop Github Repository!
+Welcome to the Open Science Workshop Github Repository!  You can find the slides for the workshop on [https://zenodo.org/record/3550236](https://zenodo.org/record/3550236)).
 
 This repository contains some simple examples of how code, specifically, *Jupyter Notebooks*, integrate with Github and and be run online. 
 
@@ -27,6 +27,15 @@ The `.gitignore`  file list all of the files that you don't want to include in t
 (Almost) anything! GitHub suggests that repositories are less than 1GB and limits all files to a maximum of 100 MB.  It's a great place for non-sensitive data, analyses, simulations, presentations, websites, etc.  
 
 Use your Github for whatever you want.  It is an easy way to share files, with special tools for code, and specifically, python code.
+
+### How is this different from git?
+
+*GitHub* is an online repository for *gits*, which is really just a project that uses *git* for version control. The basic features of both git and GitHub are very useful and simple to learn.  Advanced users will find both to be very powerful and flexible programs, but don't let these complex features scare you off!  The simplest use case for GitHub is a place to store data and code.  The simplest use case for git is a way of tracking the changes you've made to a project.
+
+There are a number of resources online about both.  Here are a couple of helpful links to get you started:
+* [Getting started with git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+* [Getting started with GitHub](https://help.github.com/en/github/getting-started-with-github)
+
 
 ## Documenting your Github
 ___
